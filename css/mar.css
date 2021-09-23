@@ -1,0 +1,61 @@
+h2{
+    text-align: center;
+}
+
+/*---------------------------------B O T Ã O--------------------------------*/
+
+#botao{
+    margin-left: 60px;
+}
+
+#botaoEn{
+    margin-left: 130px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/*--------------------------------------------------------------------------*/
+
+body{
+    margin-left: 400px;   
+    margin-right: 400px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 45% 10% 36% 10% / 46% 10% 38% 10%;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*-------------------------------D E G R A D Ê------------------------------*/
+
+.gradient{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #716F81, #B97A95, #F6AE99, #F2E1C1);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+/*--------------------------------------------------------------------------*/
