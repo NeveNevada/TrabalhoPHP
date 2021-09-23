@@ -26,7 +26,7 @@
             <form id="batatinha" class="row g-3" action="php/cadastrar.php" method="POST">
                 <div class="col-md-6">
                     <label form="text">Nome completo</label>
-                    <input type="text" class="form-control" name="nomeCompleto" placeholder="Insira seu nome completo" id="nomecomp" required>
+                    <input type="text" class="form-control" name="nome" placeholder="Insira seu nome completo" id="nomecomp" required>
                 </div>
                 <br>
                 <div class="col-md-6">
@@ -106,11 +106,11 @@
                 </div>
                 <br>
                 <div class="col-12">
-                    <input class="btn btn-secondary" type="submit" id="botaozinho" onclick="entrar()">Cadastrar>
+                    <input class="btn btn-secondary" type="submit" id="botaozinho" onclick="entrar()" value="Cadastrar">
                 </div>
             </form>  
         </div>
         
-        <script src="Form/js/form.js"></script>
+        <script src="js/form.js"></script>
     </body>
 </html>

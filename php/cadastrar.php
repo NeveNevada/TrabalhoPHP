@@ -2,9 +2,9 @@
 
     include('conexao.php');
 
-    $nome           = $_POST["nomeCompleto"];
+    $nome           = $_POST["nome"];
     $genero         = $_POST["genero"];
-    $user           = $_POST["usuario"];
+    $usuario        = $_POST["usuario"];
     $email          = $_POST["email"];
     $senha          = $_POST["senha"];
     $date           = $_POST["date"];
@@ -18,7 +18,7 @@
     $complemento    = $_POST["complemento"];
 
 
-    $cadastra = "INSERT INTO users (nome, genero, user, email, senha, data, cpf, telefone, cep, uf, cidade, endereco, numero, complemento) VALUES ('$nome', '$genero', '$usuario', '$email', '$senha', '$date', '$cpf', '$telefone', '$cep', '$uf', '$cidade', '$endereco', '$numero', '$complemento')";
+    $cadastra = "INSERT INTO users (nome, genero, usuario, email, senha, data, cpf, telefone, cep, uf, cidade, endereco, numero, complemento) VALUES ('$nome', '$genero', '$usuario', '$email', '$senha', '$date', '$cpf', '$telefone', '$cep', '$uf', '$cidade', '$endereco', '$numero', '$complemento')";
 
     if (mysqli_query($conn, $cadastra)){
         echo "<h1>Novo cadastro realizado</h1></br>";

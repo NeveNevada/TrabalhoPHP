@@ -23,3 +23,5 @@ CREATE TABLE `Users`(
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 ALTER TABLE Users CHANGE `logradouro` `endereco` VARCHAR (100) NOT NULL;  
+
+ALTER TABLE Users CHANGE `user` `usuario` VARCHAR (100) NOT NULL; 
